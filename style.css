@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(235, 229, 229);
+}
+.container{
+    width: 500px;
+    margin-left: 400px;
+    background-color: white;
+    margin-top: 100px;
+    height: 500px;
+}
+form{
+    padding-left: 10px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+hr{
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+#EM{
+    
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    width:460px;
+    padding: 10px;
+    margin-top: 10px;
+    background: #f1f1f1;
+    border: none;
+    margin-bottom: 10px;
+}
+span{
+    margin-top: 10px;
+}
+.cancelbtn {
+    width:230px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(186, 16, 16);
+    border: none;
+    color: #f1f1f1;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.signupbtn{
+    width: 230px;
+    padding:15px;
+    margin-top: 15px;
+    background-color: rgb(11, 104, 11);
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+.cancelbtn:hover{
+ opacity: 1;
+}
+.signupbtn:hover{
+    opacity: 1;
+}
